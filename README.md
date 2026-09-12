@@ -104,3 +104,11 @@ The eventual goal is not simply to have a Linux handheld. It is to understand ho
 And this is only my first Linux PCB and 4th PCB I ever designed.
 
 Thank you.
+
+# Renders
+<img width="1328" height="1274" alt="image" src="https://github.com/user-attachments/assets/b23e0450-9271-4961-8533-9d5b32211e3b" />
+<img width="1558" height="914" alt="image" src="https://github.com/user-attachments/assets/63a42a12-cdd7-4a52-b3a2-760e51bba334" />
+<img width="1450" height="960" alt="image" src="https://github.com/user-attachments/assets/6fa49fde-1f24-4688-8b9f-3b7073b6cb6a" />
+<img width="1424" height="1226" alt="image" src="https://github.com/user-attachments/assets/dc1aca4b-0845-4427-9466-6afcb461438b" />
+
+
