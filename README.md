@@ -101,6 +101,6 @@ If the first revision does not boot, that will still be useful. I will have a re
 
 The eventual goal is not simply to have a Linux handheld. It is to understand how the entire system works, from the hardware and PCB all the way up to Linux.
 
-And this is only my first Linux PCB and 4th ever PCB designed.
+And this is only my first Linux PCB and 4th PCB I ever designed.
 
 Thank you.
