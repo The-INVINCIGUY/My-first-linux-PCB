@@ -4,7 +4,7 @@
 
 As my title clearly shows, this is my first PCB designed to work with Linux. I wanted to finish this project relatively quickly and easily, so you will notice while reading this that I took quite a few shortcuts when designing it, such as with my SoC, or should I say SiP?
 
-The main goal of this project is not to make the smallest, fastest, or cheapest Linux computer possible. This is just a bring-up board. It is mainly a learning project. I wanted to see how far I could get designing a Linux-capable board myself, while learning about things like SiPs, power supplies and tolerances, boot media, high-speed interfaces like USB 2.0, power-related PCB layout, and Linux bring-up along the way.
+The main goal of this project is not to make the smallest, fastest, or cheapest Linux computer possible. This is just a bring-up board. It is mainly a learning project. I wanted to see how far I could get designing a Linux-capable board myself, while learning about everything all at once. Turns out bulk learning isn’t that hard!
 
 ## The SiP
 
@@ -41,7 +41,7 @@ I have already designed smaller microcontroller PCBs, but a Linux-capable board 
 
 With a microcontroller, I can generally design the hardware, flash the firmware, and immediately start working with the board, as I found out.
 
-A Linux system has many more things that have to work together. The processor has to boot properly, the storage has to work properly (I'm afraid that it won't), the device tree has to describe the board correctly (I might struggle a bit with this), and the Linux kernel has to support the peripherals I actually connected.
+A Linux system has many more things that have to work together. The processor has to cold boot properly, the storage has to work properly (I'm afraid that it won't), the device tree has to describe the board correctly (I might struggle a bit with this), and the Linux kernel has to support the peripherals I actually connected.
 
 That makes this project much more interesting to me.
 
@@ -51,22 +51,22 @@ Another reason is that I want to understand DTBs and DTSes, so I can reverse-eng
 
 This project is intentionally not my "ideal" design.
 
-For example, using the V3s avoids having to design and route an external DDR memory interface, but it comes at the cost of being limited to the memory integrated into the V3s. I omitted Ethernet entirely because I knew that it would be annoying to route.
+For example, as I said, using the V3s avoids having to design and route an external DDR memory interface, but it comes at the cost of being limited to the memory integrated into the V3s. I omitted Ethernet entirely because I knew that it would be annoying to route.
 
 I also intend to use existing Linux support and device-tree work wherever possible rather than trying to write everything from scratch.
 
 I would rather get one complicated-enough board working and understand why it works than spend months making an unnecessarily difficult first revision.
 
-All I wanted was a working Linux board.
+All I want is a working Linux board.
 
 ## What I have learned so far
 
-This project has already taught me considerably more than I expected.
+This project has already taught me considerably more than I would have expected.
 
 Some of the things I have had to learn include:
 
 * General ARM SoC hardware design
-* Power-rail design
+* Multiple power-rails and related calculations
 * The basics of decoupling
 * DDR and memory considerations
 * SD/MMC
@@ -97,7 +97,7 @@ I fully expect something to go wrong. (Either the USB-C ports or TF2.)
 
 If the first revision does not boot, that will still be useful. I will have a real board to debug rather than another theoretical design sitting in EasyEDA.
 
-## What comes next
+## What comes next for me
 
 The eventual goal is not simply to have a Linux handheld. It is to understand how the entire system works, from the hardware and PCB all the way up to Linux.
 
