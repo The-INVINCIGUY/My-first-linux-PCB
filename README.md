@@ -1,5 +1,16 @@
 # My-first-linux-PCB
 
+## Renders & schematic
+<img width="1328" height="1274" alt="image" src="https://github.com/user-attachments/assets/b23e0450-9271-4961-8533-9d5b32211e3b" />
+<img width="1558" height="914" alt="image" src="https://github.com/user-attachments/assets/63a42a12-cdd7-4a52-b3a2-760e51bba334" />
+<img width="1450" height="960" alt="image" src="https://github.com/user-attachments/assets/6fa49fde-1f24-4688-8b9f-3b7073b6cb6a" />
+<img width="1424" height="1226" alt="image" src="https://github.com/user-attachments/assets/dc1aca4b-0845-4427-9466-6afcb461438b" />
+<img width="1710" height="1200" alt="image" src="https://github.com/user-attachments/assets/46016e96-a035-4866-b98c-e6597683f363" />
+
+
+
+
+
 **CURRENTLY IN DEVELOPMENT!**
 
 As my title clearly shows, this is my first PCB designed to work with Linux. I wanted to finish this project relatively quickly and easily, so you will notice while reading this that I took quite a few shortcuts when designing it, such as with my SoC, or should I say SiP?
